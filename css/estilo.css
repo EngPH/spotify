@@ -174,6 +174,10 @@ h3 {
 	letter-spacing: -0.04em;
 }
 
+.espaco{
+	margin-top: 20px;
+}
+
 
 
 /* Extra small devices (portrait phones, less than 576px)*/
@@ -182,6 +186,24 @@ h3 {
 		margin: 10px 15px;
 		font-size: 1em;
 	}
+	.rotacionar {
+		-ms-transform: rotate(0deg); /* IE 9 */
+		-webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+		transform: rotate(0deg);
+		padding-left: 0;
+	}
+	.rotacionarp {
+		-ms-transform: rotate(30deg); /* IE 9 */
+		-webkit-transform: rotate(30deg); /* Chrome, Safari, Opera */
+		transform: rotate(30deg);
+		padding-left: 10px;
+		width: 175px;
+	}
+
+	.topmargem{
+		margin-top: 20px;
+	}
+	
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -192,6 +214,7 @@ h3 {
 	.btn-custom {
 		margin: 10px 15px;
 	}
+
 }
 
 /* Medium devices (tablets, 768px and up)*/
